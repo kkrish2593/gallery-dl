@@ -34,7 +34,6 @@ Optional
 Installation
 ============
 
-
 Pip
 ---
 
@@ -72,53 +71,6 @@ required Python packages included are available for
 - `Windows <https://github.com/mikf/gallery-dl/releases/download/v1.24.2/gallery-dl.exe>`__
   (Requires `Microsoft Visual C++ Redistributable Package (x86) <https://aka.ms/vs/17/release/vc_redist.x86.exe>`__)
 - `Linux   <https://github.com/mikf/gallery-dl/releases/download/v1.24.2/gallery-dl.bin>`__
-
-
-Nightly Builds
---------------
-
-| Executables build from the latest commit can be found at
-| https://github.com/mikf/gallery-dl/actions/workflows/executables.yml
-
-
-Snap
-----
-
-Linux users that are using a distro that is supported by Snapd_ can install *gallery-dl* from the Snap Store:
-
-.. code:: bash
-
-    snap install gallery-dl
-
-
-Chocolatey
-----------
-
-Windows users that have Chocolatey_ installed can install *gallery-dl* from the Chocolatey Community Packages repository:
-
-.. code:: powershell
-
-    choco install gallery-dl
-
-
-Scoop
------
-
-*gallery-dl* is also available in the Scoop_ "main" bucket for Windows users:
-
-.. code:: powershell
-
-    scoop install gallery-dl
-
-
-Homebrew
---------
-
-For macOS or Linux users using Homebrew:
-
-.. code:: bash
-
-    brew install gallery-dl
 
 
 Usage
