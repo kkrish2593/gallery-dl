@@ -338,3 +338,14 @@ To authenticate with a ``mastodon`` instance, run *gallery-dl* with
 
 .. |gitter| image:: https://badges.gitter.im/gallery-dl/main.svg
     :target: https://gitter.im/gallery-dl/main
+
+Powershell Automation
+
+    $links = import-csv .\links.csv -delimiter "`t"
+    
+        foreach ($link in $links)
+    { 
+        $Alink = $link.Imgur
+        $Blink = $null
+        .\gallery-dl.exe $Alink
+    }
